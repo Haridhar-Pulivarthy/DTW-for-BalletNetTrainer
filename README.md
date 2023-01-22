@@ -20,6 +20,7 @@ The problem I was trying to solve:
   heavily.
   
  The solution I used:
+ 
   I implemented a dynamic time warping algorithm, which is an algorithm that measures the similarity
   between two time series, which may vary in speed.
   The indexes in my algorithm are the frames of the videos, and we calculated the similarity between
